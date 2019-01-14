@@ -7,15 +7,15 @@
 
 package sk.questAns.intfceExtensionImplmention;
 
-interface InterfaceWithVarX {
+interface InterfaceWithMthdAdd {
 	int add(int x, int y);
 }
 
-interface InterfaceExdInterface extends InterfaceWithVarX {
+interface InterfaceExtsInterface extends InterfaceWithMthdAdd {
 	int add(int x, int y);
 }
 
-public class DemoInterfaceInheritance implements InterfaceExdInterface {
+public class DemoInterfaceImpsInterfce implements InterfaceExtsInterface {
 	public int add(int x, int y) {
 		return 0;
 	}
