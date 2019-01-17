@@ -25,6 +25,6 @@ public class DemoInterfaceImpsInterfce implements InterfaceExtsInterface {
 	}
 
 	public static void main(String args[]) {
-		System.out.println("There is no compilation error nor a runtime error. so we can ");
+		System.out.println("There is no compilation error nor a runtime error.");
 	}
 }
